@@ -2,6 +2,10 @@
 
 A simple weather application that retrieves and displays current weather information and forecast for a given city.
 
+## Acknowledgements
+
+I would like to extend my heartfelt appreciation to Sahand Ghavidel [https://github.com/sahandghavidel] for the original inspiration behind this project. The Weather App project at [https://www.100jsprojects.com/project/weather-app] served as a guiding light and played a significant role in shaping the development of this application.
+
 ## Installation
 
 1. Clone the repository to your local machine.
@@ -26,10 +30,10 @@ cd weather-app
 
 ## Technologies Used
 
-HTML
-CSS
-JavaScript
-OpenWeatherMap API
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
 
 ## License
 
