@@ -1,5 +1,4 @@
 const apikey = "90e71833209960a74b2be02308f5582b";
-console.log("secret.",secrets.WEATHER_API_ID)
 
 const weatherDataEl = document.getElementById("weather-data");
 const cityInputEl = document.getElementById("city-input");
@@ -17,6 +16,7 @@ formEl.addEventListener("submit", (event) => {
 
 const getWeatherData = async (city) => {
   try {
+    console.log("secret.",secrets.WEATHER_API_ID)
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`
     );
