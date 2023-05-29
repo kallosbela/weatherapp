@@ -11,6 +11,7 @@ formEl.addEventListener("submit", (event) => {
   event.preventDefault();
   const city = cityInputEl.value;
   console.log(city);
+  console.log("secret.",secrets.WEATHER_API_ID)
   getWeatherData(city);
 });
 
