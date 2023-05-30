@@ -10,14 +10,11 @@ const forecastEl = document.getElementById("forecast");
 formEl.addEventListener("submit", (event) => {
   event.preventDefault();
   const city = cityInputEl.value;
-  console.log(city);
-  console.log("secret.",secrets.WEATHER_API_ID)
   getWeatherData(city);
 });
 
 const getWeatherData = async (city) => {
   try {
-    console.log("secret.",secrets.WEATHER_API_ID)
     const response = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`
     );
